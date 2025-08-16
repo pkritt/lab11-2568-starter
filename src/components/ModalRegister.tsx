@@ -73,9 +73,7 @@ export default function ModalRegister() {
 
   // ----------------------------------------------------------------
 
-  const registerBtnOnClick = () => {
-    let fnameOk = true;
-    
+  const registerBtnOnClick = () => { 
     let ok = true;
     
     if (fname.trim() === "") {
